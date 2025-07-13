@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Styling and JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Advanced Web Features</h1>
+  <section class="responsive-section">
+    <p>This section is responsive using media queries. Resize the screen to see the effect.</p>
+  </section>
+  <section class="quiz-section">
+    <h2>Quiz: What is the capital of France?</h2>
+    <button onclick="checkAnswer('Paris')">Paris</button>
+    <button onclick="checkAnswer('London')">London</button>
+    <button onclick="checkAnswer('Rome')">Rome</button>
+    <p id="quizResult"></p>
+  </section>
+  <section class="api-section">
+    <h2>Get a Random Joke</h2>
+    <button onclick="fetchJoke()">Get Joke</button>
+    <p id="jokeDisplay"></p>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
